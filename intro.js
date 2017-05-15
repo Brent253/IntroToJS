@@ -34,3 +34,19 @@ console.log("Introduction to JavaScript");
        
        return console.log("There are " + count + " Bs " + "in " + word);
     }
+    
+       //Call countB function
+    countBs("BBQ");
+    
+    
+   function countChar(word, character) {
+        var count = 0;
+  for (var i = 0; i < word.length; i++) {
+         if (word.charAt(i) == character) {
+        count++;
+     }
+  }
+  return console.log("There are " + count + " occurences of the letter " + character + " in " + word);
+}
+countChar('Rain','a');
+    
