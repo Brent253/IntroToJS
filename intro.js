@@ -16,3 +16,21 @@ console.log("Introduction to JavaScript");
             console.log(i);
         }
     }
+    
+     //Create function countB's
+    function countBs(word)
+    {
+       var charToSearch = 'B';
+       
+       var count = 0;
+       
+       for(var i = 0; i < word.length; i++)
+    {
+        if(word[i] == charToSearch)
+        {
+            count++;
+        }
+    }
+       
+       return console.log("There are " + count + " Bs " + "in " + word);
+    }
